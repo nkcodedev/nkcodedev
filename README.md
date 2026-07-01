@@ -2,11 +2,11 @@
 
 # 👋 Hi, I'm Nitin Kaushal
 
-### 🏗 Senior Solution Architect | ☁ AWS Certified | 🚀 Creator of Resili
+### 🏗 Senior Solution Architect | ☁️ AWS Certified | 🚀 Creator of Resili
 
 Building resilient distributed systems, cloud-native applications, and open-source developer tools with TypeScript.
 
-<br/>
+<br />
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)
@@ -17,24 +17,23 @@ Building resilient distributed systems, cloud-native applications, and open-sour
 
 ---
 
-# 🚀 About Me
+## 🚀 About Me
 
 - 🏗 Senior Solution Architect
-- ☁ AWS Certified
+- ☁️ AWS Certified
 - 💻 14+ years building enterprise software
 - 🛡 Creator of **Resili**, a TypeScript resilience toolkit
+- 📦 Published open-source npm packages
 - 📚 Passionate about System Design & Cloud Architecture
 - ❤️ Building developer tools that solve real-world problems
 
 ---
 
-# 🛡 Featured Project
-
-## Resili
+## 🛡 Featured Project: Resili
 
 **Modern TypeScript Resilience Toolkit**
 
-Build production-ready applications with built-in resilience.
+Build production-ready applications with built-in resilience patterns.
 
 ### Features
 
@@ -50,22 +49,22 @@ Build production-ready applications with built-in resilience.
 
 ### Repository
 
-👉 https://github.com/nkcodedev/resili
+👉 [github.com/nkcodedev/resili](https://github.com/nkcodedev/resili)
 
 ---
 
-# 📦 Published npm Packages
+## 📦 Published npm Packages
 
-- 🛡 **@resili/core**
-- 🌐 **@resili/fetch**
-- ⚡ **@resili/axios**
-- 🚀 **@resili/undici**
+- 🛡 [@resili/core](https://www.npmjs.com/package/@resili/core)
+- 🌐 [@resili/fetch](https://www.npmjs.com/package/@resili/fetch)
+- ⚡ [@resili/axios](https://www.npmjs.com/package/@resili/axios)
+- 🚀 [@resili/undici](https://www.npmjs.com/package/@resili/undici)
 
-https://www.npmjs.com/~nkcodedev
+👉 [npmjs.com/~nkcodedev](https://www.npmjs.com/~nkcodedev)
 
 ---
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 **Languages**
 
@@ -93,51 +92,48 @@ System Design • Distributed Systems • Microservices • Event-Driven Archite
 
 ---
 
-# 📚 Currently Building
+## 📚 Currently Building
 
 - 🛡 Resili
-- 🌐 NKCode.dev
 - 🧰 Developer Utilities
 - 📘 System Design Resources
 - 🤖 AI Developer Tools
 
 ---
 
-# 🌐 Connect With Me
+## 🌐 Connect With Me
 
 <p align="center">
 
-
 <a href="https://github.com/nkcodedev">
-<img src="https://img.shields.io/badge/GitHub-nkcodedev-181717?style=for-the-badge&logo=github">
+<img src="https://img.shields.io/badge/GitHub-nkcodedev-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
 <a href="https://www.npmjs.com/~nkcodedev">
-<img src="https://img.shields.io/badge/npm-nkcodedev-CB3837?style=for-the-badge&logo=npm">
+<img src="https://img.shields.io/badge/npm-nkcodedev-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
 </a>
 
 <a href="https://medium.com/@nitink4107">
-<img src="https://img.shields.io/badge/Medium-Nitin%20Kaushal-black?style=for-the-badge&logo=medium">
+<img src="https://img.shields.io/badge/Medium-Nitin%20Kaushal-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
 </a>
-
 
 </p>
 
 ---
 
-# 📈 GitHub Statistics
+## 📈 GitHub Statistics
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=nkcodedev&show_icons=true&theme=github_dark&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=nkcodedev&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="Nitin's GitHub stats" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkcodedev&layout=compact&theme=github_dark&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkcodedev&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
 
 </p>
 
 <p align="center">
 
-<img src="https://streak-stats.demolab.com?user=nkcodedev&theme=github-dark&hide_border=true"/>
+<img width="700" src="https://streak-stats.demolab.com?user=nkcodedev&theme=github-dark&hide_border=true" alt="GitHub streak" />
 
 </p>
 
@@ -147,6 +143,6 @@ System Design • Distributed Systems • Microservices • Event-Driven Archite
 
 ### ⭐ Thanks for visiting my profile!
 
-*"Building production-grade open-source software and sharing knowledge with developers around the world."*
+_Building production-grade open-source software and sharing knowledge with developers around the world._
 
 </div>
