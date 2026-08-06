@@ -76,9 +76,9 @@ npm install @resili/core
 
 ### [Pullsense](https://github.com/nkcodedev/pullsense)
 
-AI pull-request reviewer powered by Ollama or OpenAI.
+AI-powered pull-request review tool with [Model Context Protocol (MCP)](https://modelcontextprotocol.io) support.
 
-Watches GitHub webhooks, reviews diffs, and posts check runs with inline comments — so review signal shows up where engineers already work.
+Watches GitHub webhooks, reviews diffs with Ollama or OpenAI, and posts check runs with inline comments. MCP is built in both directions — Pullsense exposes an MCP server for Cursor / Claude Desktop, and can also call external MCP servers to enrich review context.
 
 → [github.com/nkcodedev/pullsense](https://github.com/nkcodedev/pullsense)
 
@@ -89,7 +89,7 @@ Watches GitHub webhooks, reviews diffs, and posts check runs with inline comment
 | Project | Stack | Status | Link |
 | --- | --- | --- | --- |
 | **Resili** | TypeScript · Node.js | Open source | [Repo](https://github.com/nkcodedev/resili) |
-| **Pullsense** | TypeScript · GitHub Apps · AI | Open source | [Repo](https://github.com/nkcodedev/pullsense) |
+| **Pullsense** | TypeScript · AI · MCP · GitHub Apps | Open source | [Repo](https://github.com/nkcodedev/pullsense) |
 
 ---
 
@@ -109,7 +109,7 @@ Watches GitHub webhooks, reviews diffs, and posts check runs with inline comment
 ## Currently Building
 
 - Hardening and expanding **Resili** for real-world production workloads
-- Shipping **Pullsense** as a practical AI code-review companion
+- Shipping **Pullsense** as an AI + MCP code-review companion
 - **FlowIQ** — VS Code tooling to trace Express request flows in large backends
 - System design resources and developer utilities
 
