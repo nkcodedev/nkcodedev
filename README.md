@@ -1,139 +1,150 @@
 <div align="center">
 
-# 👋 Hi, I'm Nitin Kaushal
+# Nitin Kaushal
 
-### 🏗 Senior Solution Architect | ☁️ AWS Certified | 🚀 Creator of Resili
+**Senior Solution Architect** · AWS Certified · Creator of [Resili](https://github.com/nkcodedev/resili)
 
-Building resilient distributed systems, cloud-native applications, and open-source developer tools with TypeScript.
+Building resilient systems, developer tools, and cloud-native platforms with TypeScript.
 
 <br />
 
-![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open%20Source-Love-success?style=for-the-badge)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![AWS](https://img.shields.io/badge/AWS-Certified-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)](https://aws.amazon.com/)
+[![npm](https://img.shields.io/badge/npm-nkcodedev-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~nkcodedev)
+
+[GitHub](https://github.com/nkcodedev) · [npm](https://www.npmjs.com/~nkcodedev) · [Medium](https://medium.com/@nitink4107)
 
 </div>
 
 ---
 
-## 🚀 About Me
+## About
 
-- 🏗 Senior Solution Architect
-- ☁️ AWS Certified
-- 💻 14+ years building enterprise software
-- 🛡 Creator of **Resili**, a TypeScript resilience toolkit
-- 📦 Published open-source npm packages
-- 📚 Passionate about System Design & Cloud Architecture
-- ❤️ Building developer tools that solve real-world problems
+- Senior Solution Architect with 14+ years building enterprise software
+- AWS Certified
+- Creator of **Resili**, a TypeScript resilience toolkit
+- Publisher of open-source npm packages
+- Focused on system design, cloud architecture, and developer tools that solve real problems
 
 ---
 
-## 🛡 Featured Project: Resili
+## Focus
 
-**Modern TypeScript Resilience Toolkit**
+I design and ship distributed systems that stay reliable under failure — with an emphasis on **resilience patterns**, **developer experience**, and **cloud architecture**.
 
-Build production-ready applications with built-in resilience patterns.
-
-### Features
-
-- ✅ Retry
-- ✅ Timeout
-- ✅ Circuit Breaker
-- ✅ Bulkhead
-- ✅ Rate Limiter
-- ✅ Native Fetch Adapter
-- ✅ Axios Adapter
-- ✅ Undici Adapter
-- ✅ Plugin System
-
-### Repository
-
-👉 [github.com/nkcodedev/resili](https://github.com/nkcodedev/resili)
+| Domain | What I work on |
+| --- | --- |
+| Resilience & Reliability | Retry, timeout, circuit breaker, bulkhead, rate limiting |
+| Developer Tools | AI-assisted review, static analysis, DX tooling |
+| Cloud & Platform | AWS, serverless, containers, infrastructure as code |
 
 ---
 
-## 📦 Published npm Packages
+## Open Source
 
-- 🛡 [@resili/core](https://www.npmjs.com/package/@resili/core)
-- 🌐 [@resili/fetch](https://www.npmjs.com/package/@resili/fetch)
-- ⚡ [@resili/axios](https://www.npmjs.com/package/@resili/axios)
-- 🚀 [@resili/undici](https://www.npmjs.com/package/@resili/undici)
+### [Resili](https://github.com/nkcodedev/resili) — featured
 
-👉 [npmjs.com/~nkcodedev](https://www.npmjs.com/~nkcodedev)
+TypeScript-first resilience toolkit for production Node.js services.
 
----
+Composable primitives for fault-tolerant applications:
 
-## 🛠 Tech Stack
+- **Retry** — controlled recovery from transient failures
+- **Timeout** — bounded execution with clear failure modes
+- **Circuit Breaker** — fail fast when downstream systems degrade
+- **Bulkhead** — isolate critical paths under load
+- **Rate Limiter** — protect services from traffic spikes
+- **Adapters** — native Fetch, Axios, and Undici
+- **Plugin System** — extend resilience behavior for your stack
 
-**Languages**
+```bash
+npm install @resili/core
+```
 
-TypeScript • JavaScript • PHP • Python
+→ [github.com/nkcodedev/resili](https://github.com/nkcodedev/resili)
 
-**Backend**
+#### Published packages
 
-Node.js • Express • REST APIs • GraphQL
+- [@resili/core](https://www.npmjs.com/package/@resili/core)
+- [@resili/fetch](https://www.npmjs.com/package/@resili/fetch)
+- [@resili/axios](https://www.npmjs.com/package/@resili/axios)
+- [@resili/undici](https://www.npmjs.com/package/@resili/undici)
 
-**Cloud**
-
-AWS • Lambda • DynamoDB • S3 • API Gateway • ECS
-
-**DevOps**
-
-Docker • Terraform • GitHub Actions
-
-**Databases**
-
-PostgreSQL • MySQL • DynamoDB • Redis
-
-**Architecture**
-
-System Design • Distributed Systems • Microservices • Event-Driven Architecture
+→ [npmjs.com/~nkcodedev](https://www.npmjs.com/~nkcodedev)
 
 ---
 
-## 📚 Currently Building
+### [Pullsense](https://github.com/nkcodedev/pullsense)
 
-- 🛡 Resili
-- 🧰 Developer Utilities
-- 📘 System Design Resources
-- 🤖 AI Developer Tools
+AI pull-request reviewer powered by Ollama or OpenAI.
+
+Watches GitHub webhooks, reviews diffs, and posts check runs with inline comments — so review signal shows up where engineers already work.
+
+→ [github.com/nkcodedev/pullsense](https://github.com/nkcodedev/pullsense)
 
 ---
 
-## 🌐 Connect With Me
+## Project Map
+
+| Project | Stack | Status | Link |
+| --- | --- | --- | --- |
+| **Resili** | TypeScript · Node.js | Open source | [Repo](https://github.com/nkcodedev/resili) |
+| **Pullsense** | TypeScript · GitHub Apps · AI | Open source | [Repo](https://github.com/nkcodedev/pullsense) |
+
+---
+
+## Tech Stack
+
+| Area | Technologies |
+| --- | --- |
+| Languages | TypeScript · JavaScript · PHP · Python |
+| Backend | Node.js · Express · REST APIs · GraphQL |
+| Cloud | AWS · Lambda · DynamoDB · S3 · API Gateway · ECS |
+| DevOps | Docker · Terraform · GitHub Actions |
+| Data | PostgreSQL · MySQL · DynamoDB · Redis |
+| Architecture | System Design · Distributed Systems · Microservices · Event-Driven |
+
+---
+
+## Currently Building
+
+- Hardening and expanding **Resili** for real-world production workloads
+- Shipping **Pullsense** as a practical AI code-review companion
+- **FlowIQ** — VS Code tooling to trace Express request flows in large backends
+- System design resources and developer utilities
+
+---
+
+## Connect
 
 <p align="center">
 
 <a href="https://github.com/nkcodedev">
-<img src="https://img.shields.io/badge/GitHub-nkcodedev-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/GitHub-nkcodedev-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
 </a>
-
 <a href="https://www.npmjs.com/~nkcodedev">
-<img src="https://img.shields.io/badge/npm-nkcodedev-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+<img src="https://img.shields.io/badge/npm-nkcodedev-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm" />
 </a>
-
 <a href="https://medium.com/@nitink4107">
-<img src="https://img.shields.io/badge/Medium-Nitin%20Kaushal-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+<img src="https://img.shields.io/badge/Medium-Nitin%20Kaushal-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium" />
 </a>
 
 </p>
 
 ---
 
-## 📈 GitHub Statistics
+## GitHub Statistics
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=nkcodedev&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="Nitin's GitHub stats" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkcodedev&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=nkcodedev&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="Nitin's GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkcodedev&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
 
 </p>
 
 <p align="center">
 
-<img width="700" src="https://streak-stats.demolab.com?user=nkcodedev&theme=github-dark&hide_border=true" alt="GitHub streak" />
+<img width="700" src="https://streak-stats.demolab.com?user=nkcodedev&theme=default&hide_border=true" alt="GitHub streak" />
 
 </p>
 
@@ -141,8 +152,8 @@ System Design • Distributed Systems • Microservices • Event-Driven Archite
 
 <div align="center">
 
-### ⭐ Thanks for visiting my profile!
+**Building tools that make systems more reliable — and developers more effective.**
 
-_Building production-grade open-source software and sharing knowledge with developers around the world._
+⭐ Thanks for visiting
 
 </div>
