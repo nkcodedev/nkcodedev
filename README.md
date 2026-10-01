@@ -2,9 +2,9 @@
 
 # Nitin Kaushal
 
-**Senior Solution Architect** · AWS Certified · Creator of [Resili](https://github.com/nkcodedev/resili)
+**Senior Solution Architect** · AWS Certified · Open Source Builder
 
-Building resilient systems, developer tools, and cloud-native platforms with TypeScript.
+Building distributed systems, AI infrastructure and observability, developer tooling, and cloud-native platforms with TypeScript.
 
 <br />
 
@@ -23,7 +23,7 @@ Building resilient systems, developer tools, and cloud-native platforms with Typ
 
 - Senior Solution Architect with 14+ years building enterprise software
 - AWS Certified
-- Creator of **Resili**, a TypeScript resilience toolkit
+- Creator of open-source developer infrastructure including **Resili** and **AgentGauge**
 - Publisher of open-source npm packages
 - Focused on system design, cloud architecture, and developer tools that solve real problems
 
@@ -31,11 +31,12 @@ Building resilient systems, developer tools, and cloud-native platforms with Typ
 
 ## Focus
 
-I design and ship distributed systems that stay reliable under failure — with an emphasis on **resilience patterns**, **developer experience**, and **cloud architecture**.
+I design and ship distributed systems that stay reliable under failure — with an emphasis on **resilience patterns**, **AI observability**, **developer experience**, and **cloud architecture**.
 
 | Domain | What I work on |
 | --- | --- |
 | Resilience & Reliability | Retry, timeout, circuit breaker, bulkhead, rate limiting |
+| AI Infrastructure & Observability | LLM usage, cost, latency, model telemetry, AI workload visibility |
 | Developer Tools | AI-assisted review, static analysis, DX tooling |
 | Cloud & Platform | AWS, serverless, containers, infrastructure as code |
 
@@ -74,6 +75,29 @@ npm install @resili/core
 
 ---
 
+### [AgentGauge](https://github.com/nkcodedev/agentgauge)
+
+Open-source observability and cost intelligence for AI agents.
+
+AgentGauge gives engineering teams visibility into how LLM-powered agents behave in production: which agents are running, how many tokens they consume, what they cost, which models they use, where failures occur, and how usage changes over time. Telemetry is metadata-first — prompts and completions are not stored by default.
+
+The Node SDK sends traces to a self-hosted API. PostgreSQL is the source of truth, and a dashboard shows overview metrics, agents, runs, traces, API keys, and model pricing. Cost is estimated server-side from historical, effective-dated pricing, including custom models managed from the dashboard.
+
+Key capabilities:
+
+- Manual tracing, plus automatic instrumentation for OpenAI, Anthropic, and Gemini
+- Token usage, latency, errors, estimated cost, and agent, model, and provider breakdowns
+- Run and trace observability with retry and attempt visibility
+- Real-time dashboard updates over SSE, with project API keys and a trace explorer
+
+```bash
+npm install @agentgauge/node
+```
+
+→ [github.com/nkcodedev/agentgauge](https://github.com/nkcodedev/agentgauge)
+
+---
+
 ### [Pullsense](https://github.com/nkcodedev/pullsense)
 
 AI-powered pull-request review tool with [Model Context Protocol (MCP)](https://modelcontextprotocol.io) support.
@@ -89,6 +113,7 @@ Watches GitHub webhooks, reviews diffs with Ollama or OpenAI, and posts check ru
 | Project | Stack | Status | Link |
 | --- | --- | --- | --- |
 | **Resili** | TypeScript · Node.js | Open source | [Repo](https://github.com/nkcodedev/resili) |
+| **AgentGauge** | TypeScript · Node.js · PostgreSQL | Open source | [Repo](https://github.com/nkcodedev/agentgauge) |
 | **Pullsense** | TypeScript · AI · MCP · GitHub Apps | Open source | [Repo](https://github.com/nkcodedev/pullsense) |
 
 ---
@@ -109,6 +134,7 @@ Watches GitHub webhooks, reviews diffs with Ollama or OpenAI, and posts check ru
 ## Currently Building
 
 - Hardening and expanding **Resili** for real-world production workloads
+- Expanding **AgentGauge** for AI agent observability and cost tracking
 - Shipping **Pullsense** as an AI + MCP code-review companion
 - **FlowIQ** — VS Code tooling to trace Express request flows in large backends
 - System design resources and developer utilities
