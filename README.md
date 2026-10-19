@@ -142,6 +142,10 @@ npm i @resili/core
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=nkcodedev&theme=transparent&hide_border=true&background=00000000&ring=2dd4bf&fire=2dd4bf&currStreakLabel=2dd4bf" alt="GitHub streak" />
 
+<br />
+
+<img src="https://trophy.ryglcloud.net/?username=nkcodedev&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8" alt="GitHub trophies" />
+
 </div>
 
 ---
