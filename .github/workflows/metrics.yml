@@ -1,0 +1,58 @@
+# Generates profile metrics via https://github.com/lowlighter/metrics
+# Requires repo secret METRICS_TOKEN (PAT, no scopes needed for public data).
+# Docs: https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # ~10:30 IST daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/metrics.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nkcodedev
+          template: classic
+          filename: .github/metrics/metrics.svg
+          config_timezone: Asia/Kolkata
+          config_order: isocalendar, stargazers, lines, achievements, rss
+          base: header
+
+          # 📅 Commit calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # ✨ Stargazer growth (AgentGauge / Resili / Pullsense)
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: graph
+          plugin_stargazers_days: 0
+
+          # 👨‍💻 Lines changed
+          plugin_lines: yes
+          plugin_lines_sections: repositories, history
+          plugin_lines_repositories_limit: 4
+          plugin_lines_history_limit: 3
+
+          # 🏆 Achievements (Action-backed; replaces flaky trophy hosts)
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_display: compact
+          plugin_achievements_limit: 8
+
+          # ✒️ Medium via RSS (posts plugin does not support Medium)
+          plugin_rss: yes
+          plugin_rss_source: https://medium.com/feed/@nitink4107
+          plugin_rss_limit: 4

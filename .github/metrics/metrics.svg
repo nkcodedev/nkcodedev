@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="120" viewBox="0 0 480 120" role="img" aria-label="Metrics placeholder">
+  <rect width="480" height="120" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="240" y="52" text-anchor="middle" fill="#2dd4bf" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="600">GitHub Metrics</text>
+  <text x="240" y="78" text-anchor="middle" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">Run the Metrics workflow after adding METRICS_TOKEN</text>
+</svg>
